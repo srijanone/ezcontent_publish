@@ -2,7 +2,7 @@ name: EZContent LB Iframe Modal Feature
 type: module
 description: 'Render Layout Builder edit forms in an iframe, using the admin theme.'
 package: EZContent LB Iframe Modal
-core_version_requirement: ^9.3 || ^10
+core_version_requirement: ^10.2 || ^11
 dependencies:
   - layout_builder_browser:layout_builder_browser
   - ezcontent_block_alert_banner:ezcontent_block_alert_banner
