@@ -23,7 +23,7 @@ class Preview extends CKEditorPluginBase {
       $path = \Drupal::service('library.libraries_directory_file_finder')->find('preview');
     }
     elseif (\Drupal::moduleHandler()->moduleExists('libraries')) {
-      $path = libraries_get_path('preview');
+      $path = \Drupal::service('library.libraries_directory_file_finder')->find('preview');
     }
     else {
       $path = 'libraries/preview';
